@@ -1,34 +1,17 @@
 # IDS706FinalProject
 
-This is the final project for the Data Engineering class (IDS 706) at Duke University.
+## Cloud Computing Project: Detect Celebrity From User-Upload Image
 
-Data Studio dashboards:
+### Introduction
+In this project, a flask web application is created and deployed using AWS Elastic Beanstalk. Following instructions on the home page, user can upload photos to the web page, and the app will detect the celebrity contained in the photo. After clicking the recognition bottom, the app will return the name of the celebrity and a link to his/her IMDB/Wikipedia page.
 
-Preliminary data cleaning cource code can be found in the repository.
+Link to the web app: cele-env2.eba-3kn73jhp.us-east-2.elasticbeanstalk.com
 
-Flow of The Project:
+### Workflow
+The app is developed using AWS Cloud9 IDE using Python, JavaScript, HTML, and CSS. Flask was used as a framework for the backend. The app was deployed through Elastic Beanstalk and is build and tested through AWS CodePipeline for continous delivery and continuous integration on the cloud.
 
-Data Cleaning in Python
-Data Storing in GCP buckets
-Data Preparation in Google Big Query
-Data Visualization & Analytics in Data Studio
-IMDb Dataset Details:
 
-Source data: https://www.imdb.com/interfaces/
 
-Each dataset is contained in a gzipped, tab-separated-values (TSV) formatted file in the UTF-8 character set. The first line in each file contains headers that describe what is in each column. A ‘\N’ is used to denote that a particular field is missing or null for that title/name.
 
-The data IMDB dataset consists of information regarding different types of videos clips, including TV Series, Mini Series, movies, etcs. We only focus on the movie data for this project.
-
-Below is a summary of the areas of interest of the project:
-
-Number of moviews produced each year and the trend of volume
-Top genres in the recent years (our project picks a range from 2012 to 2019)
-Most active movie crew (in terms of the number of films they participated)
-Most active actors
-Films with highest ratings
-Characters played by award-winning actors/actresses
-Most versatile film crew of all time
-Time-series analysis using real-time data from Wikipedia film pages (our project picks 2019 and 2020 data)
 Project Member
 Junbo Guan @junbog96
