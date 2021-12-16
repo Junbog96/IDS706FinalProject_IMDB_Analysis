@@ -1,4 +1,4 @@
-# IDS706FinalProject_IMDB_Analysis
+# IDS706FinalProject
 
 This is the final project for the Data Engineering class (IDS 706) at Duke University.
 
